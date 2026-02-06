@@ -47,6 +47,7 @@ Product_Management_System/
 │   ├── routes/          # API and page routes
 │   ├── views/           # HTML pages
 │   ├── public/          # CSS and client JS
+|   ├── utils/
 │
 ├── database.sql         # Database schema
 ├── .env                 # Environment variables
@@ -58,8 +59,16 @@ Product_Management_System/
 
 ## Setup Instructions
 
+### 1. Clone the repository
 
-### 1. Install dependencies
+```
+git clone <repository-url>
+cd product-management
+```
+
+---
+
+### 2. Install dependencies
 
 ```
 npm install
@@ -67,7 +76,7 @@ npm install
 
 ---
 
-### 2. Setup MySQL Database
+### 3. Setup MySQL Database
 
 Open MySQL Workbench and run:
 
@@ -79,7 +88,7 @@ This will create the required database and tables.
 
 ---
 
-### 3. Configure Environment Variables
+### 4. Configure Environment Variables
 
 Create a `.env` file in the project root:
 
@@ -94,7 +103,7 @@ JWT_SECRET=your_secret_key
 
 ---
 
-### 4. Run the Application
+### 5. Run the Application
 
 ```
 node app.js
@@ -102,7 +111,7 @@ node app.js
 
 ---
 
-### 5. Access the Application
+### 6. Access the Application
 
 Open your browser and go to:
 
