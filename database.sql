@@ -1,3 +1,6 @@
+CREATE DATABASE IF NOT EXISTS product_management;
+USE product_management;
+
 -- MySQL dump 10.13  Distrib 8.0.44, for Win64 (x86_64)
 --
 -- Host: localhost    Database: product_management
