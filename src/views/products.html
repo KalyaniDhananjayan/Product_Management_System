@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Products</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+<div class="header">
+  <h2>Products</h2>
+  <button id="logoutBtn" class="btn-logout">Logout</button>
+</div>
+
+<div>
+  Total Products: <span id="totalProducts"></span>
+  <br>
+  Total Value: ₹<span id="totalValue"></span>
+</div>
+
+<hr>
+
+<form id="productForm">
+  <input id="name" placeholder="Name" required />
+  <input id="price" type="number" placeholder="Price" required />
+  <input id="quantity" type="number" placeholder="Quantity" required />
+  <button id="submitBtn">Add Product</button>
+</form>
+
+<hr>
+
+<ul id="productList"></ul>
+
+<script src="/js/products.js"></script>
+
+</body>
+</html>
