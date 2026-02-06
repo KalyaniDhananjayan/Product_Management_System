@@ -78,11 +78,24 @@ npm install
 
 ### 3. Setup MySQL Database
 
-Open MySQL Workbench and run:
+You can import the database using either of the following methods.
 
-```
+Method 1: Using MySQL Workbench
+
+1. Open MySQL Workbench.
+2. Open a new SQL tab.
+3. Run:
+
 SOURCE database.sql;
-```
+
+---
+
+Method 2: Using Terminal
+
+Run:
+mysql -u root -p < database.sql
+
+Then enter your MySQL password when prompted.
 
 This will create the required database and tables.
 
